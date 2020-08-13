@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnnoMessage</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <div class="sent-container" id="sent-container">
+        <h2>Message Sent</h2>
+        <div class="footer">
+            <img src="./imgs/happy.png" class="sent-logo"></div>
+        </div>
+
+    </div>
+    <div class="container" id="login-container">
+        <h2 class="title">AnnoMessage</h2>
+        <p>Secure Annonymus Messenging</p>
+        <p>Login/Register</p>
+
+
+        <form id="contactForm">
+            <p>
+                <label>Username</label>
+                <input name="username" id="name">
+            </p>
+            <p>
+                <label>E-mail</label>
+                <input name="mail" type="email" id="email">
+            </p>
+            <p>
+                <label>Enter Password</label>
+                <input name="pass" id="pass">
+            </p>
+        </form>
+
+        <a class="login-btn" href="#" id="login">Register</a>
+    </div>
+
+    <div class="message-container" id="message-container">
+        <h2>AnnoMessage</h2>
+        <h2>Leave a message for TriptoAfsin - </h2>
+        <textarea name="message" id="message-txt" cols="50" rows="10"></textarea>
+        <a class="login-btn" href="#" id="message-submit">Send Annonymus Message</a>
+    </div>
+
+
+    <div class="footer">
+        <img src="./imgs/chat.png" class="footer-logo"></div>
+    </div>
+
+
+    
+    
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-database.js"></script> 
+
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
